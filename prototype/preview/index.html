@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>神农卫田 2.0 原型预览</title>
+<style>
+:root{font-family:system-ui,-apple-system,'Microsoft YaHei',sans-serif;color:#183329;background:#f3f7f4}
+body{margin:0}header{position:sticky;top:0;background:#f3f7f4f2;padding:18px max(24px,4vw);box-shadow:0 1px 7px #cbd9d0;z-index:2}
+h1{font-size:24px;margin:0 0 8px}p{margin:5px 0;color:#536b5b}.filters{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+button{border:1px solid #b9d0c3;border-radius:8px;padding:8px 15px;background:white;color:#234d39;cursor:pointer;font:inherit}
+button.active{background:#16764e;color:white;border-color:#16764e}
+main{padding:24px max(24px,4vw);display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;align-items:start}
+.card{display:flex;flex-direction:column;background:white;border:1px solid #dbe8df;border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 3px 12px #193e2810}
+.card img{width:100%;height:320px;object-fit:contain;background:#e9f0eb}.card[data-group="PC 端"] img{height:230px}
+.card span{font-weight:600;padding:12px 14px;line-height:1.4}.card:hover{border-color:#16764e}.hidden{display:none}
+</style></head><body>
+<header><h1>神农卫田 2.0 · 原型预览</h1><p>43 张静态画板：移动端 35 张、PC 端 8 张。点击卡片查看原尺寸图片。</p>
+<p>该 .pen 快照生成于 2026-11-05；最新双智能体设计说明更新于 2026-11-06，后续画板仍需按说明迭代。</p>
+<div class="filters"><button class="active" data-filter="全部">全部 43</button><button data-filter="移动端">移动端 35</button><button data-filter="PC 端">PC 端 8</button></div></header>
+<main id="gallery"><a class="card" data-group="移动端" href="images/R03oNB.webp" target="_blank"><img loading="lazy" src="images/R03oNB.webp" alt="P01 首页｜进行中"><span>P01 首页｜进行中</span></a>
+<a class="card" data-group="移动端" href="images/PqI3M.webp" target="_blank"><img loading="lazy" src="images/PqI3M.webp" alt="P02 三视图取证"><span>P02 三视图取证</span></a>
+<a class="card" data-group="移动端" href="images/Z43K4B.webp" target="_blank"><img loading="lazy" src="images/Z43K4B.webp" alt="P02 状态｜需重拍"><span>P02 状态｜需重拍</span></a>
+<a class="card" data-group="移动端" href="images/g8ADY.webp" target="_blank"><img loading="lazy" src="images/g8ADY.webp" alt="P03 证据确认"><span>P03 证据确认</span></a>
+<a class="card" data-group="移动端" href="images/c8lZQ.webp" target="_blank"><img loading="lazy" src="images/c8lZQ.webp" alt="P04 补充提问"><span>P04 补充提问</span></a>
+<a class="card" data-group="移动端" href="images/s87SI.webp" target="_blank"><img loading="lazy" src="images/s87SI.webp" alt="P04 状态｜语音回显"><span>P04 状态｜语音回显</span></a>
+<a class="card" data-group="移动端" href="images/YyWF7.webp" target="_blank"><img loading="lazy" src="images/YyWF7.webp" alt="诊断中｜同一请求"><span>诊断中｜同一请求</span></a>
+<a class="card" data-group="移动端" href="images/Bo03c.webp" target="_blank"><img loading="lazy" src="images/Bo03c.webp" alt="M01 病虫害智能体"><span>M01 病虫害智能体</span></a>
+<a class="card" data-group="移动端" href="images/gabnI.webp" target="_blank"><img loading="lazy" src="images/gabnI.webp" alt="P05 结果｜L2 主方案"><span>P05 结果｜L2 主方案</span></a>
+<a class="card" data-group="移动端" href="images/WFp9w.webp" target="_blank"><img loading="lazy" src="images/WFp9w.webp" alt="P05 展开｜依据与候选"><span>P05 展开｜依据与候选</span></a>
+<a class="card" data-group="移动端" href="images/rt5wV.webp" target="_blank"><img loading="lazy" src="images/rt5wV.webp" alt="P05 结果｜L1 状态"><span>P05 结果｜L1 状态</span></a>
+<a class="card" data-group="移动端" href="images/k6gJ3.webp" target="_blank"><img loading="lazy" src="images/k6gJ3.webp" alt="P05 结果｜L3 状态"><span>P05 结果｜L3 状态</span></a>
+<a class="card" data-group="移动端" href="images/WUqX0.webp" target="_blank"><img loading="lazy" src="images/WUqX0.webp" alt="P06 行动计划"><span>P06 行动计划</span></a>
+<a class="card" data-group="移动端" href="images/YlH7j.webp" target="_blank"><img loading="lazy" src="images/YlH7j.webp" alt="P07 用药核验｜待补条件"><span>P07 用药核验｜待补条件</span></a>
+<a class="card" data-group="移动端" href="images/CPJL5.webp" target="_blank"><img loading="lazy" src="images/CPJL5.webp" alt="P07 状态｜禁止加量"><span>P07 状态｜禁止加量</span></a>
+<a class="card" data-group="移动端" href="images/Dguhk.webp" target="_blank"><img loading="lazy" src="images/Dguhk.webp" alt="P08 执行记录"><span>P08 执行记录</span></a>
+<a class="card" data-group="移动端" href="images/pJAxo.webp" target="_blank"><img loading="lazy" src="images/pJAxo.webp" alt="P09 复查计划"><span>P09 复查计划</span></a>
+<a class="card" data-group="移动端" href="images/zBCd4.webp" target="_blank"><img loading="lazy" src="images/zBCd4.webp" alt="P10 复查比较"><span>P10 复查比较</span></a>
+<a class="card" data-group="移动端" href="images/Qru2f.webp" target="_blank"><img loading="lazy" src="images/Qru2f.webp" alt="P11 病例列表"><span>P11 病例列表</span></a>
+<a class="card" data-group="移动端" href="images/ThAIB.webp" target="_blank"><img loading="lazy" src="images/ThAIB.webp" alt="P11 病例时间线"><span>P11 病例时间线</span></a>
+<a class="card" data-group="移动端" href="images/C5idHm.webp" target="_blank"><img loading="lazy" src="images/C5idHm.webp" alt="P11 状态｜删除确认"><span>P11 状态｜删除确认</span></a>
+<a class="card" data-group="移动端" href="images/ByI7p.webp" target="_blank"><img loading="lazy" src="images/ByI7p.webp" alt="P12 紧急安全覆盖"><span>P12 紧急安全覆盖</span></a>
+<a class="card" data-group="移动端" href="images/USE7b.webp" target="_blank"><img loading="lazy" src="images/USE7b.webp" alt="P13 我的"><span>P13 我的</span></a>
+<a class="card" data-group="移动端" href="images/ceORg.webp" target="_blank"><img loading="lazy" src="images/ceORg.webp" alt="P13 权限与数据"><span>P13 权限与数据</span></a>
+<a class="card" data-group="移动端" href="images/q4lZzg.webp" target="_blank"><img loading="lazy" src="images/q4lZzg.webp" alt="异常状态｜弱网恢复"><span>异常状态｜弱网恢复</span></a>
+<a class="card" data-group="移动端" href="images/yH3Ep.webp" target="_blank"><img loading="lazy" src="images/yH3Ep.webp" alt="异常状态｜模型超时"><span>异常状态｜模型超时</span></a>
+<a class="card" data-group="移动端" href="images/gDkVo.webp" target="_blank"><img loading="lazy" src="images/gDkVo.webp" alt="视觉方向 B｜P05 L2"><span>视觉方向 B｜P05 L2</span></a>
+<a class="card" data-group="移动端" href="images/HJLJZ.webp" target="_blank"><img loading="lazy" src="images/HJLJZ.webp" alt="视觉方向 C｜P05 L2"><span>视觉方向 C｜P05 L2</span></a>
+<a class="card" data-group="移动端" href="images/RidLE.webp" target="_blank"><img loading="lazy" src="images/RidLE.webp" alt="P01 状态｜首次无病例"><span>P01 状态｜首次无病例</span></a>
+<a class="card" data-group="移动端" href="images/lF17x.webp" target="_blank"><img loading="lazy" src="images/lF17x.webp" alt="P07 状态｜计算器结构"><span>P07 状态｜计算器结构</span></a>
+<a class="card" data-group="移动端" href="images/wPpI5.webp" target="_blank"><img loading="lazy" src="images/wPpI5.webp" alt="P10 状态｜复查加重"><span>P10 状态｜复查加重</span></a>
+<a class="card" data-group="移动端" href="images/o19cSU.webp" target="_blank"><img loading="lazy" src="images/o19cSU.webp" alt="P11 状态｜分享预览"><span>P11 状态｜分享预览</span></a>
+<a class="card" data-group="移动端" href="images/KiUbm.webp" target="_blank"><img loading="lazy" src="images/KiUbm.webp" alt="P11 状态｜结束确认"><span>P11 状态｜结束确认</span></a>
+<a class="card" data-group="移动端" href="images/v03sKr.webp" target="_blank"><img loading="lazy" src="images/v03sKr.webp" alt="P04 状态｜任务澄清"><span>P04 状态｜任务澄清</span></a>
+<a class="card" data-group="移动端" href="images/S7jJbo.webp" target="_blank"><img loading="lazy" src="images/S7jJbo.webp" alt="P04 状态｜麦克风被拒绝"><span>P04 状态｜麦克风被拒绝</span></a>
+<a class="card" data-group="PC 端" href="images/c7nV7.webp" target="_blank"><img loading="lazy" src="images/c7nV7.webp" alt="D01 PC 首页"><span>D01 PC 首页</span></a>
+<a class="card" data-group="PC 端" href="images/rAWwE.webp" target="_blank"><img loading="lazy" src="images/rAWwE.webp" alt="D02 PC 诊断工作区"><span>D02 PC 诊断工作区</span></a>
+<a class="card" data-group="PC 端" href="images/xSOjJ.webp" target="_blank"><img loading="lazy" src="images/xSOjJ.webp" alt="D03 PC 病例列表与详情"><span>D03 PC 病例列表与详情</span></a>
+<a class="card" data-group="PC 端" href="images/jQCky.webp" target="_blank"><img loading="lazy" src="images/jQCky.webp" alt="D04 PC 个人数据分析"><span>D04 PC 个人数据分析</span></a>
+<a class="card" data-group="PC 端" href="images/vcZKv.webp" target="_blank"><img loading="lazy" src="images/vcZKv.webp" alt="D05 PC 档案与我的"><span>D05 PC 档案与我的</span></a>
+<a class="card" data-group="PC 端" href="images/v3V206.webp" target="_blank"><img loading="lazy" src="images/v3V206.webp" alt="D04 状态｜无数据"><span>D04 状态｜无数据</span></a>
+<a class="card" data-group="PC 端" href="images/G0Y9yz.webp" target="_blank"><img loading="lazy" src="images/G0Y9yz.webp" alt="D04 状态｜接口错误"><span>D04 状态｜接口错误</span></a>
+<a class="card" data-group="PC 端" href="images/h368Ld.webp" target="_blank"><img loading="lazy" src="images/h368Ld.webp" alt="D06 病虫害智能体"><span>D06 病虫害智能体</span></a></main>
+<script>document.querySelectorAll('button[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===button));document.querySelectorAll('.card').forEach(card=>card.classList.toggle('hidden',button.dataset.filter!=='全部'&&card.dataset.group!==button.dataset.filter));}));</script>
+</body></html>
